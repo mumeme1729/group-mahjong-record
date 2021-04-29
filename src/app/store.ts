@@ -1,13 +1,15 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
-
+import authReducer from '../features/auth/authSlice';
+import homeReducer from '../features/home/homeSlice';
+import groupReducer from '../features/group/groupSlice';
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    auth: authReducer,
+    home: homeReducer,
+    group:groupReducer,
   },
 });
 
-export type AppDispatch = typeof store.dispatch;
 export type RootState = ReturnType<typeof store.getState>;
 export type AppThunk<ReturnType = void> = ThunkAction<
   ReturnType,
@@ -15,3 +17,5 @@ export type AppThunk<ReturnType = void> = ThunkAction<
   unknown,
   Action<string>
 >;
+
+export type AppDispatch =typeof store.dispatch;

@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+/* グループホーム */
+.group_home_container{ 
+    height: 100%;
+    width:100%
+}
+.group_img{
+    width:200px; 
+    height:220px;
+}
+.group_home_body{
+    display: flex;
+    
+}
+.group_home_body_circular_container{
+    display: flex;
+    justify-content: center;
+}
+.group_title_h2{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.group_home_body_top{
+    margin-left: 10px;
+}
+.group_home_body_top_groupinfo_container{
+    display: flex;
+    margin-top: 5px;
+}
+.group_home_title{
+    display: flex;
+}
+.group_home_title_p{
+    margin-top: 11px;
+}
+.group_home_body_top_groupinfo_title{
+    margin-left: 15px;
+}
+.share_btn{
+    margin-top: 40px;
+    display: flex;
+}
+.share_btn_icon{
+    margin-left: 6px;
+}
+.group_home_container_left{
+    width: 30%;
+}
+.grouphome_btn{
+    border-bottom:solid 2px rgba(0,0,0,0.5);
+    width: 130px;
+    margin-top: 7px;
+    text-align: center;
+}
+.grouphome_btn:hover{
+    opacity: 0.7;
+}
+.group_home_menu{
+    margin-left: 70px;
+    width: 250px;
+}
+.hgrouphome_menu_btn_h3{
+    margin-bottom: -1px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.group_home_container_right{
+    width: 70%;
+}
+.results_table_p{
+    display:inline;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.results_table_p_blue{
+    color: blue;
+    display:inline;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.results_table_p_red{
+    color: red;
+    display:inline;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.group_home_results{
+    margin-top: -15px;
+    height: 350px;
+    margin-left: 5px;
+}
+/* グループホーム　参加 */
+.participation_btn_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.participation_btn_h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+    border: solid skyblue;
+    border-radius: 20em;
+    padding: 10px 35px;
+}
+.participation_btn{
+    border: solid;
+}
+/* メンバー一覧 */
+.page_title_group_member{
+    text-align: left;
+    display: flex;
+}
+.update_rate_btn{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/* ゲーム結果 */
+.gameresult_container{
+    display: flex;
+}
+.gameresult_body{
+    margin-left: 20px;
+}
+.match_recode_table{
+    display: flex;
+    justify-content: center;
+}
+.selectdate_container{
+    display: flex;
+    justify-content: center;
+}
+.selectdate_body{
+    display: flex;
+    justify-content: center;
+}
+.result_matchrecode{
+    display: flex;
+    justify-content: center;
+}
+.selectdate_container_h3{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.gameresults_btn_container{
+    display: flex;
+    margin-left: 30px;
+    width: 200px;
+    justify-content: space-between;
+}
+.gameresults_circular{
+    margin-top: 10px;
+    text-align: center;
+}
+.matchresult_title{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.results_table_not_exist_div{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* 対局 */
+
+.game_main_container{
+    display: flex;
+    justify-content: center;
+}
+.game_main_body{
+    width: 800px;
+}
+.page_title_select_member{
+    text-align: left;
+}
+.game_container{
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+}
+.gameresult_container:hover{
+   opacity: 0.7;
+} 
+.game_body{
+    margin-top: 5px;
+    width: 100px;
+}
+.game_avater{
+    margin-left:10px;
+}
+.game_user_btn:hover{
+    opacity: 0.7;
+}
+.game_selected_profile{
+    opacity: 0.5;
+    background-color: grey;
+}
+.game_start_btn{
+    text-align: center;
+}
+/* 個人成績 */
+.radar_chart{
+    display: none;
+}
+/* メンバー詳細 */
+.memberdetail_container_top{
+    display: flex;
+    justify-content: center;
+}
+.memberdetail_container_top_body{
+    display:flex;
+}
+.game_start_btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.memberdetail_prof{
+    width: 400px;
+    text-align: center;
+    margin-top: 80px;
+}
+.memberdetail_prof_p_container{
+    margin-top: 6px;
+}
+.memberdetail_prof_p_name{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 22px;
+    margin-top: -6px;
+}
+.memberdetail_prof_p{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: -8px;
+}
+.memberdetail_prof_avatar{
+    margin-left: 170px;
+    margin-bottom: 5px;
+}
+.match_recode_not_exist{
+    text-align: center;
+}
+/* 設定モーダル */
+.leavegroup{
+    font-size: 8px;
+    margin-left: 170px;
+    margin-top: 15px;
+}
+.leavegroup:hover{
+    background-color: tomato;
+    opacity: 0.8;
+}
+.leavegroup_p_c{
+    font-size: 5px;
+}
+.leavegroup_container{
+    display: flex;
+    margin-top: 20px;
+}
+.leavegroup_body{
+    margin-left: 40px;
+}
+.groupsetting_modal_img{
+    border: solid;
+}
+.groupsetting_modal_img:hover{
+    opacity: 0.7;
+}
+.groupsetting_btn{
+    text-align: center;
+    margin-top: 5px;
+}
+/* グループ参加 */
+.group_home_modal_container{
+    text-align: center;
+}
+.group_home_modal_btn{
+    margin-top: 50px;
+}
+@media screen and (max-width: 800px) {
+    .group_home_body_top{
+        margin-left: 10px;
+    }
+    .group_home_body{
+        display:flex;
+        flex-flow: column;
+    }
+    .group_home_container_left{
+        margin-left: -6px;
+        width: 100%;
+    }
+    .grouphome_btn{
+        border-bottom:solid 2px rgba(0,0,0,0.5);
+        width: 100px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .group_home_menu{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .group_home_container_right{
+        margin-top: 28px;
+        width: 100%;
+    }
+    .results_table_p{
+        display: block;
+    }
+    /* 対局開始 */
+    .game_main_container{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .game_container{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    /* メンバー詳細 */
+    .memberdetail_container_top{
+        display: flex;
+        justify-content: center;
+    }
+    .memberdetail_container_top_body{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .memberdetail_prof{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .memberdetail_prof_avatar{
+        margin-left: 160px;
+        margin-bottom: 5px;
+    }
+    .memberdetail_chart{
+        display: flex;
+        justify-content: center;
+        width: 96%;
+    }
+    /* 記録 */
+    .match_recode_table{
+        display: flex;
+        justify-content: left;
+        overflow: auto; 
+        white-space: nowrap; 
+        width:100%;
+    }
+    .result_matchrecode{
+        display: flex;
+        justify-content: left;
+        overflow: auto; 
+        white-space: nowrap; 
+        width:100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .group_img{
+        width: 150px;
+        height: 170px;
+        margin-top: 25px;
+    }
+    .group_title_h2{
+        font-size: 18px;
+    }
+    .group_home_title_p{
+        margin-top: -1px;
+    }
+    .group_home_body_top_groupinfo_container{
+        display: flex;
+        margin-top: 5px;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .group_home_body_top_groupinfo_title{
+        margin-top: 13px;
+        margin-left: -4px;
+    }
+    .results_table_p{
+        display: block;
+        font-size:8px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    .match_recode_table{
+        display: flex;
+        justify-content: left;
+        overflow: auto; 
+        white-space: nowrap; 
+        width:100%;
+    }
+    .result_matchrecode{
+        display: flex;
+        justify-content: left;
+        overflow: auto; 
+        white-space: nowrap; 
+        width:100%;
+    }
+}
