@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.aadf1102.chunk.css",
-    "main.js": "/static/js/main.337573b8.chunk.js",
-    "main.js.map": "/static/js/main.337573b8.chunk.js.map",
+    "main.css": "/static/css/main.133e973a.chunk.css",
+    "main.js": "/static/js/main.d7d00be9.chunk.js",
+    "main.js.map": "/static/js/main.d7d00be9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.66ce8b6e.js",
     "runtime-main.js.map": "/static/js/runtime-main.66ce8b6e.js.map",
     "static/js/2.71871567.chunk.js": "/static/js/2.71871567.chunk.js",
     "static/js/2.71871567.chunk.js.map": "/static/js/2.71871567.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.aadf1102.chunk.css.map": "/static/css/main.aadf1102.chunk.css.map",
+    "static/css/main.133e973a.chunk.css.map": "/static/css/main.133e973a.chunk.css.map",
     "static/js/2.71871567.chunk.js.LICENSE.txt": "/static/js/2.71871567.chunk.js.LICENSE.txt",
     "static/media/bad_neko.40b8e1a3.jpg": "/static/media/bad_neko.40b8e1a3.jpg",
     "static/media/battle.64b36da2.jpg": "/static/media/battle.64b36da2.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.66ce8b6e.js",
     "static/js/2.71871567.chunk.js",
-    "static/css/main.aadf1102.chunk.css",
-    "static/js/main.337573b8.chunk.js"
+    "static/css/main.133e973a.chunk.css",
+    "static/js/main.d7d00be9.chunk.js"
   ]
 }
